@@ -19,7 +19,7 @@ This setup assumes:
 
 ```bash
 git clone https://github.com/GoogleCloudPlatform/devrel-demo-datasets
-cd devrel-demo-samples/petverse/petverse-profiles/
+cd devrel-demo-datasets/petverse/petverse-profiles/
 ```
 
 2. Test the application locally. Replace the project ID where the dataset `petverse` is. This assumes you have completed all the steps in the codelab.
