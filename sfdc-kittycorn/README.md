@@ -24,7 +24,7 @@ Somewhat cleaned-up and augmented by [@vladkol](https://github.com/vladkol) and 
 
 ## Usage
 
-1. Clone this repository: `git clone https://github.com/vladkol/sfdc-kittycorn`.
+1. Clone this repository: `git clone https://github.com/GoogleCloudPlatform/devrel-demo-datasets`.
 2. Change current directory to the repository directory: `cd sfdc-kittycorn`.
 3. Upload sample data to your BigQuery project:
 
