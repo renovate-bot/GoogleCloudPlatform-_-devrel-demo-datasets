@@ -1,13 +1,13 @@
 #   Welcome to the PetVerse!
 
-This is a quick demo application to make use of all the magical SQL statements generated [in this codelab](https://codelabs.developers.google.com/devsite/codelabs/petverse_multimodal).
+This is a quick demo application to make use of all the magical SQL statements generated [in this codelab](https://codelabs.developers.google.com/devsite/codelabs/petverse_multimodal?utm_campaign=CDR_0x6cb6c9c7_default_b433288268&utm_medium=external&utm_source=social).
 
 
 This setup assumes:
 1. Your Cloud Build and Cloud Run setup are running with the default (Compute) service account. This is not a recommended practice for production environments, however, we assume this demo is being run by beginners exploring in a throwaway, non-critical process in the context of the codelab.
 2. You have almighty IAM admin permissions to correct permission errors
-3. Your project is part of an organization (otherwise, **you will not see the IAP option**). Follow [these instructions](https://cloud.google.com/iap/docs/enabling-cloud-run) if your project does not belong to an organization
-4. You have (at least) Storage Object User and so does the Compute service account or the account executing the build and Cloud Run services. Your pictures will not be displayed otherwise. If this was a real application, you would use [Signed URLs](https://cloud.google.com/storage/docs/access-control/signing-urls-with-helpers).
+3. Your project is part of an organization (otherwise, **you will not see the IAP option**). Follow [these instructions](https://cloud.google.com/iap/docs/enabling-cloud-run?utm_campaign=CDR_0x6cb6c9c7_default_b433288268&utm_medium=external&utm_source=social) if your project does not belong to an organization
+4. You have (at least) Storage Object User and so does the Compute service account or the account executing the build and Cloud Run services. Your pictures will not be displayed otherwise. If this was a real application, you would use [Signed URLs](https://cloud.google.com/storage/docs/access-control/signing-urls-with-helpers?utm_campaign=CDR_0x6cb6c9c7_default_b433288268&utm_medium=external&utm_source=social).
 5. This application is using IAP authentication, which is a secure and simple method to authenticate in this context.
 6. This application is running everything in the same container. In a real, production scenario, you would separate the services to make them reusable and scalable.
 7. You are following these instructions in the [Cloud Shell](https://shell.cloud.google.com/)
@@ -40,7 +40,7 @@ Click around the interface and pay attention to the logs in the console. This wi
 
 Execute `deploy.sh`. This script will attempt to create an image from this local repository.
 
-If you run into permission errors, check the documentation for [Cloud Run](https://cloud.google.com/run/docs/deploying-source-code#required_roles)
+If you run into permission errors, check the documentation for [Cloud Run](https://cloud.google.com/run/docs/deploying-source-code#required_roles?utm_campaign=CDR_0x6cb6c9c7_default_b433288268&utm_medium=external&utm_source=social)
 
 ## Licensing
 
