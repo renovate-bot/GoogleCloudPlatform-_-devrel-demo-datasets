@@ -28,9 +28,9 @@ cd devrel-data-samples
 Replace the variables with your project ID and a name for your bucket:
 
 ```bash
-gsutil mb -p <<project_id>> -l us-central1 gs://<<your_bucket_name>>
-gsutil cp ./petverse/pets.csv gs://<<your_bucket_name>>/
-gsutil -m cp -r ./petverse/bucket/* gs://<<your_bucket_name>>/
+gcloud storage buckets create gs://<<your_bucket_name>> --project <<project_id>> --location us-central1
+gcloud storage cp ./petverse/pets.csv gs://<<your_bucket_name>>/
+gcloud storage cp --recursive ./petverse/bucket/* gs://<<your_bucket_name>>/
  ```
 
 3. **Prosper!**
